@@ -1,0 +1,19 @@
+server:
+  port: 8086
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 1234
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=spring30mvc
+  trymeleaf:
+    prefix: classpath:/templates/
+  resources:
+    static-locations: classpath:/static/
+    cache:
+      period: 0
+#  mvc:
+#    view:
+#      prefix: /WEB-INF/jsp/
+#      suffix: .jsp
