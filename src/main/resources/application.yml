@@ -7,6 +7,12 @@ spring:
     username: postgres
     password: 1234
     url: jdbc:postgresql://localhost:5432/postgres?currentSchema=spring30mvc
+#  jpa:
+#    properties:
+#      hibernate:
+#        hbm2ddl:
+#          auto: create-drop
+        
   trymeleaf:
     prefix: classpath:/templates/
   resources:
