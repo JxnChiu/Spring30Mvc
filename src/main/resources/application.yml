@@ -5,7 +5,8 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     username: postgres
-    password: 1234
+#    password: 1234
+    password: 99988776
     url: jdbc:postgresql://localhost:5432/postgres?currentSchema=spring30mvc
 #  jpa:
 #    properties:
@@ -23,3 +24,5 @@ spring:
 #    view:
 #      prefix: /WEB-INF/jsp/
 #      suffix: .jsp
+logging:
+  file:  "logName.log"
